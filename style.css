@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Carter+One&family=Pacifico&family=Roboto&display=swap');
+
+*{
+    font-family: "roboto";
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99))no-repeat;
+    height: 100vh;
+}
+.conten{
+    width: 350px;
+    background: rgb(161, 159, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #0075FF;
+    background: linear-gradient(to right, rgb(255, 228, 230), rgb(204, 251, 241))no-repeat;
+    position: relative;
+}
+p{
+    line-height: 25px;
+}
+img{
+    width: 5rem;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    border-radius: 10px;
+}
+input[type="number"]{
+    width: 300px;
+    margin: 3px;
+    height: 22px;
+    border: none;
+    border-bottom: 1px solid rgb(75, 196, 129);
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: #67e49f;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    cursor: pointer;
+    height: 22px;
+    font-weight: 800;
+    margin-top: 10px;
+}
